@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <header id="navigator">
+      <nav>
+        <div class="container nav-body">
+          <div class="brand-logo">
+            <a href="#">
+              <img
+                class="img-logo"
+                src="./Assets/logo/logo.svg"
+                alt="Ep logo"
+              />
+            </a>
+          </div>
+          <div class="item-nav" id="item-nav">
+            <div class="nav-list">
+              <ul>
+                <li><a class="hover" href="#content">Article</a></li>
+                <li><a class="hover" href="#profile">About</a></li>
+                <li><a class="hover" href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="search">
+              <form>
+                <input
+                  id="inputForm"
+                  type="text"
+                  placeholder="
+                  Find What You Think"
+                />
+              </form>
+              <button class="button-search">
+                <img
+                  id="btnSearch"
+                  src="./Assets/material/search_white.svg"
+                  alt="search icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="burger" id="burger" >
+            <img class="d-none" id="burger-img" onclick="myBurger()" src="./Assets/material/burger.svg" alt="burger">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="body-jumbotron">
+          <div class="card">
+            <div class="card-body ">
+              <div class="card-img face face1">
+                <img id="img1" src="./Assets/material/html-white.svg" alt="html" />
+              </div>
+              <div class="card-content face face2">
+                <div class="content-title">
+                  <h2><a class="hover" href="#html">Html --></a></h2>
+                </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, tenetur, repellendus a magnam porro itaque doloribus accusantium fugiat molestiae nobis labore!</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body ">
+              <div class="card-img face face1">
+                <img id="img2" src="./Assets/material/css-white.svg" alt="Css" />
+              </div>
+              <div class="card-content face face2">
+                <div class="content-title">
+                  <h2><a class="hover" href="#css">Css --></a></h2>
+                </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, tenetur, repellendus a magnam porro itaque doloribus accusantium fugiat molestiae nobis labore!</p>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body ">
+                <div class="card-img face face1">
+                  <img id="img3" src="./Assets/material/js-white.svg" alt="JavaScript" />
+                </div>
+                <div class="card-content face face2">
+                  <div class="content-title">
+                    <h2><a class="hover" href="#javascript">JavaScript --></a></h2>
+                  </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, tenetur, repellendus a magnam porro itaque doloribus accusantium fugiat molestiae nobis labore!</p>
+                </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- article -->
+    <main>
+      <div id="content" >
+        <article class="container" id="html">
+          <div class="title-artic">
+            <h1>HTML</h1>
+          </div>
+          <div class="content-artic">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. Possimus maxime nostrum non in atque, dolor perferendis odit neque similique. Aliquid architecto debitis fuga deleniti sapiente.
+            </p>
+            <p class="p-style">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. 
+              <img src="./Assets/material/html.svg" alt="html icon">
+              <p >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat.
+              </p>
+            </p>
+          </div>
+        </article>
+        <article class="container" id="css">
+          <div class="title-artic">
+            <h1>CSS</h1>
+          </div>
+          <div class="content-artic">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. Possimus maxime nostrum non in atque, dolor perferendis odit neque similique. Aliquid architecto debitis fuga deleniti sapiente.
+            </p>
+            <p class="p-style">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. 
+              <img src="./Assets/material/css.svg" alt="css icon">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae</p>
+            </p>
+
+
+          </div>
+        </article>
+        <article class="container" id="javascript">
+          <div class="title-artic">
+            <h1>JS</h1>
+          </div>
+          <div class="content-artic">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. Possimus maxime nostrum non in atque, dolor perferendis odit neque similique. Aliquid architecto debitis fuga deleniti sapiente.
+            </p>
+            <p class="p-style">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. 
+              <img src="./Assets/material/js.svg" alt="javascript icon">
+
+              <p >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores iste necessitatibus odit consectetur alias eveniet totam laborum ea perspiciatis, nisi quibusdam reprehenderit molestias id explicabo debitis. Doloribus provident ullam sed. Alias nulla obcaecati commodi. Molestias esse veniam fuga omnis voluptatem eligendi ipsam est reprehenderit dolore recusandae at expedita dolorum itaque quaerat, porro placeat earum aliquam quos ipsum ullam error fugiat nesciunt obcaecati voluptate. Possimus maxime nostrum non in atque, dolor perferendis odit neque similique.
+              </p>
+            </p>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <div class="profile" id="profile">
+          <div class="container">
+            <h1 class="title-profile">About Me</h1>
+            <div class="hr-line"></div>
+            <div class="header-profile">
+              <img src="./Assets/material/profile.jpg" alt="profile" class="img-profile">
+              <div class="name-profile">
+                <h1>Erico Pratama Jaya</h1>
+                <h3>16<sup>th</sup></h3>
+              </div>
+            </div>
+            <div class="hr-line"></div>
+            <div class="detail-profile">
+              <div class="school">
+                <div class="prop">
+                  <h4>
+                    School
+                  </h4>
+                </div>
+                <div class="val">
+                    : SMKN 1 Nglegok
+                </div>
+              </div>  
+              <div class="address">
+                <div class="prop">
+                  <h4>
+                    Address
+                  </h4>
+                </div>
+                <div class="val">
+                    : Jawa Timur, Kab. Blitar.
+                </div>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="body-footer">
+          <div class="logo-footer">
+            <img src="./Assets/logo/logo.svg" alt="logo">
+          </div>
+          <div class="contact">
+            <h2 style="text-align: center;font-family: 'Quicksand-bold';color:white;">Contact Us</h2>
+            <div class="wa wa-icon">
+              <div class="icon-wa">
+                <img src="./Assets/material/wa.svg" alt="whatsapp icon">
+              </div>
+              <div class="val-contact">
+                + 62 xxx-xxxx-xxxx
+              </div>
+            </div>  
+            <div class="wa">
+              <div class="icon-wa">
+                <img src="./Assets/material/phone.svg" alt="Phone icon">
+              </div>
+              <div class="val-contact">
+                + 62 xxx-xxxx-xxxx
+              </div>
+            </div>  
+            <div class="wa email">
+              <div class="icon-wa">
+               <img src="./Assets/material/email.svg" alt="email icon">
+              </div>
+              <div class="val-contact">
+                email@anda.com
+              </div>
+            </div>  
+            </div>
+            <div class="copy-right">
+              <p>&copy;2020 | Desain by Erico PJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./Assets/component/index.js"></script>
+  </body>
+</html>
